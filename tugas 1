@@ -1,0 +1,16 @@
+Tugas 1
+1. GET path '/home' yang menampilkan respon "Welcome to my first backend"
+2. POST path '/data' yang menampilkan data yang dikirim ke console.log
+3. POST path '/profile' yang menampilkan data yang dikirim ke "response"
+4. PATCH path '/profile' yang akan mengupdate variable sesuai data yang dikirim pada program dengan inisialisasi data sbb:
+    let data = {
+        name: 'Jane',
+        batch: '17.2',
+        email: 'janedoe@gmail.com'
+    }
+
+5. PUT path '/profile' yang akan mengupdate keseluruhan data yang didefinisikan di atas ke data baru secara lengkap, jika tidak dia akan menampilkan error 
+6. GET path '/profile' yang akan menampilkan object data
+7. DELETE path '/profile' yang akan membuat variable data sebelumnya menjadi null
+
+github repo dengan nama "b17ol-backend-beginner"
